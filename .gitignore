@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+*.log
+articles/published/
+outputs/logs/
+.cache/
+token_cache.json
