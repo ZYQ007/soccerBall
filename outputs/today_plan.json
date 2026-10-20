@@ -48,10 +48,10 @@
   ],
   "core": [
     {
-      "match": "周二003",
-      "pick": "伍尔弗汉普顿主胜",
-      "detail": "只取胜平负主胜，不追让一球穿盘",
-      "note": "朴茨茅斯十天第四战且伤病名单超过两位数，主队阵容厚度和升级动机同向",
+      "match": "周二002",
+      "pick": "多特蒙德客胜",
+      "detail": "只取胜平负客胜，不追让球大胜",
+      "note": "阵容实力差距最明确；连续客场和近期进攻低迷主要影响净胜球，不足以把胜负方向降级",
       "confidence": 4
     },
     {
@@ -109,10 +109,10 @@
   "summary": [
     {
       "match": "001 费内巴切vs斯拉维亚",
-      "wdl": "主胜",
-      "half_full": "胜/胜",
+      "wdl": "主胜/防平",
+      "half_full": "平/胜",
       "goals": "3球",
-      "scores": "2-1 > 2-0 > 3-1",
+      "scores": "2-1 > 1-1 > 2-0",
       "confidence": 4
     },
     {
@@ -121,30 +121,30 @@
       "half_full": "平/负",
       "goals": "2球",
       "scores": "0-2 > 1-2 > 1-1",
-      "confidence": 2
+      "confidence": 4
     },
     {
       "match": "003 狼队vs朴茨茅斯",
-      "wdl": "主胜",
+      "wdl": "主胜/防平",
       "half_full": "平/胜",
       "goals": "2球",
-      "scores": "2-0 > 1-0 > 2-1",
-      "confidence": 4
+      "scores": "1-0 > 2-0 > 1-1",
+      "confidence": 3
     },
     {
       "match": "004 那不勒斯vs博德",
       "wdl": "平/主胜",
       "half_full": "平/平",
-      "goals": "4球",
-      "scores": "2-2 > 2-1 > 1-1",
+      "goals": "2-3球",
+      "scores": "1-1 > 2-1 > 2-2",
       "confidence": 2
     },
     {
       "match": "005 罗马vs布拉迪斯",
       "wdl": "主胜",
       "half_full": "胜/胜",
-      "goals": "3球",
-      "scores": "3-0 > 2-0 > 3-1",
+      "goals": "4球",
+      "scores": "3-0 > 2-0 > 4-0",
       "confidence": 4
     },
     {
@@ -184,7 +184,7 @@
       "wdl": "主胜",
       "half_full": "平/胜",
       "goals": "2-3球",
-      "scores": "2-0 > 2-1 > 1-0",
+      "scores": "2-1 > 2-0 > 1-0",
       "confidence": 4
     }
   ],
