@@ -1,121 +1,101 @@
 {
-  "date": "2026-07-16",
-  "market": "标准日",
-  "budget_note": "月预算 1000 元 · 弹性日投",
+  "date": "2026-10-25",
+  "market": "周日夜场12场：强队低赔集中，但欧战消耗与伤停显著；重点防塞尔塔、乌迪内斯方向的逆热门结果",
+  "budget_note": "不设具体金额，按风险等级分层执行",
   "yesterday_review": {
-    "review_date": "2026-07-15",
-    "headline": "昨日回顾栏目今日启动，前日无正式归档方案。",
+    "review_date": "2026-10-24",
+    "headline": "仓库未发现昨日正式归档，实盘分层不统计。",
     "stats": {
-      "summary_text": "精选场次：首期不计入统计，自今日方案起逐日复盘。"
+      "summary_text": "无赛前归档，不依据赛果补记精选场次命中情况。"
     },
     "items": [],
     "portfolio_stats": {
-      "summary_text": "首期无实盘数据，自今日起统计核心/价值/彩票仓命中率。",
-      "core": { "hit": 0, "total": 0, "detail": "待统计" },
-      "value": { "hit": 0, "total": 0, "detail": "待统计" },
-      "lottery": { "hit": 0, "total": 0, "detail": "待统计" }
+      "summary_text": "无2026-10-24归档，三层统计均为空样本。",
+      "core": {"hit": 0, "total": 0, "detail": "无归档，未统计"},
+      "value": {"hit": 0, "total": 0, "detail": "无归档，未统计"},
+      "lottery": {"hit": 0, "total": 0, "detail": "无归档，未统计"}
     },
     "portfolio_items": [],
     "learnings": [
-      "实盘复盘机制已上线：每日推送后自动归档，次日统计分层命中率。",
-      "核心仓重命中率，价值仓看性价比，彩票仓看高赔逻辑是否成立。"
+      "缺少赛前归档时保持0/0，禁止赛后倒推实盘。",
+      "低赔强队若同时存在欧战消耗、关键伤停或德比因素，应降低稳定层权重。",
+      "稳定层优先状态连续且对手客场短板明确的场次，价值层用平局抵消热门集中。"
     ]
   },
-  "single_match_info": "仅周四201（瓦勒伦加 vs 奥勒松）支持胜平负单关，其余场次需串关。",
+  "single_match_info": "周日018—029单关资格均请终端逐玩法确认；周日028胜平负未显示SP，仅开让(-2) 2.30/4.00/2.25。北京时间22:01时012—017已到开球点，未纳入方案。",
   "core": [
     {
-      "match": "周四201",
-      "pick": "主胜（次选平）",
-      "detail": "10元主胜 + 8元平局",
-      "note": "201 单关拆分对冲",
-      "confidence": 3
+      "match": "周日024 皇家社会vs莱万特",
+      "pick": "主胜",
+      "detail": "皇家社会联赛三连胜，莱万特五个客场不胜且主力中卫缺席；主队需防欧战后慢热。",
+      "note": "单关资格请终端确认；更偏平/胜、2-1脚本。",
+      "confidence": 4
+    },
+    {
+      "match": "周日029 洛杉矶FCvs洛杉矶银河",
+      "pick": "主胜（防平）",
+      "detail": "LAFC取胜即可锁定季后赛，孙兴慜与布安加创造力占优；银河也必须抢分，防德比对攻成平。",
+      "note": "单关资格请终端确认；不作零封思路。",
+      "confidence": 4
     }
   ],
   "value": [
     {
-      "title": "2串1",
-      "content": "圣路易城胜 + 西雅图胜",
-      "reason": "两场主队基本面最完整",
-      "confidence": 4
+      "title": "2串1·状态组合",
+      "content": "018勒沃库森客胜 + 020雷恩主胜",
+      "reason": "两队整体状态和阵容深度占优；霍芬海姆反弹、雷恩头号射手缺阵是主要风险。",
+      "confidence": 3
     },
     {
-      "title": "2串1",
-      "content": "温哥华客胜 + 斯海杜克客胜",
-      "reason": "客队状态与赔率匹配更好",
-      "confidence": 3
+      "title": "2串1·逆热平局",
+      "content": "019塞尔塔平 + 026乌迪内斯平",
+      "reason": "塞尔塔六轮不败且交锋占优；米兰连续三个联赛客场战平并有欧战疲劳，两个客队均偏热。",
+      "confidence": 2
     }
   ],
   "lottery": [
     {
-      "title": "A 总进球串",
+      "title": "A·高进球组合",
       "rating": "A-",
-      "content": "201(3球) + 209(2球)",
-      "risk": "201 若 1-1 或 4 球+失效",
+      "content": "022弗赖堡vs拜仁（4+球） + 027巴萨vs皇马（4+球）",
+      "risk": "两场若强队领先后主动降速，进球上限会被压低。",
       "confidence": 4
     },
     {
-      "title": "B 半全场串",
+      "title": "B·半全场组合",
       "rating": "B+",
-      "content": "209(胜/胜) + 210(平/胜)",
-      "risk": "半场节奏偏离会全灭",
+      "content": "023莱切vs尤文（平/负） + 024皇家社会vs莱万特（平/胜）",
+      "risk": "尤文伤停过多，若始终打不开局面则客胜脚本失效。",
       "confidence": 3
     },
     {
-      "title": "C 比分串",
+      "title": "C·比分组合",
       "rating": "B",
-      "content": "201(2-2) + 209(2-0)",
-      "risk": "比分容错为零",
-      "confidence": 3
+      "content": "028葡萄牙体育3-1 + 029洛杉矶FC 3-1",
+      "risk": "精确比分容错极低，且周日028仅开让球玩法，请终端确认比分是否在售。",
+      "confidence": 2
     },
     {
-      "title": "D 混合3串1",
-      "rating": "B+",
-      "content": "201(3球) + 209(胜/胜) + 203(2球)",
-      "risk": "203 若开放对攻可能 3 球+",
-      "confidence": 3
-    }
-  ],
-  "summary": [
-    {
-      "match": "201 瓦勒伦加vs奥勒松",
-      "wdl": "主胜/防平",
-      "half_full": "平/胜",
-      "goals": "2-3球",
-      "scores": "2-1 > 1-1 > 2-2",
-      "confidence": 3
-    },
-    {
-      "match": "209 圣路易城vs堪萨斯",
-      "wdl": "主胜",
-      "half_full": "胜/胜",
-      "goals": "2-3球",
-      "scores": "2-0 > 2-1 > 3-1",
-      "confidence": 4
-    },
-    {
-      "match": "210 西雅图vs波特兰",
-      "wdl": "主胜",
-      "half_full": "平/胜",
-      "goals": "2-3球",
-      "scores": "2-1 > 1-0 > 2-0",
-      "confidence": 3
-    },
-    {
-      "match": "208 芝加哥vs温哥华",
-      "wdl": "客胜/防平",
-      "half_full": "平/负",
-      "goals": "2-3球",
-      "scores": "1-2 > 1-1 > 0-1",
-      "confidence": 3
-    },
-    {
-      "match": "203 费伦茨vs伏伊伏丁",
-      "wdl": "主胜/防平",
-      "half_full": "平/胜",
-      "goals": "2球",
-      "scores": "1-1 > 2-0 > 2-1",
+      "title": "D·混合三串",
+      "rating": "B",
+      "content": "021桑德兰vs利兹联（0-1球） + 025阿尔克马尔vs特温特（3-4球） + 027巴萨胜",
+      "risk": "三种比赛脚本差异大，任一早球或红牌都会显著改变进球区间。",
       "confidence": 2
     }
   ],
-  "disclaimer": "仅供体育数据分析与娱乐参考，不构成投注建议。理性参与，量力而行。"
+  "summary": [
+    {"match": "018 霍芬海姆vs勒沃库森", "wdl": "客胜/防平", "half_full": "平/负", "goals": "4+球", "scores": "1-3 > 2-3 > 2-2", "confidence": 3},
+    {"match": "019 塞尔塔vs贝蒂斯", "wdl": "平/客胜", "half_full": "平/平", "goals": "2-3球", "scores": "1-1 > 1-2 > 2-2", "confidence": 3},
+    {"match": "020 雷恩vs斯特拉斯堡", "wdl": "主胜/防平", "half_full": "平/胜", "goals": "2-3球", "scores": "2-1 > 1-1 > 3-1", "confidence": 3},
+    {"match": "021 桑德兰vs利兹联", "wdl": "平/客胜", "half_full": "平/平", "goals": "0-1球", "scores": "0-1 > 1-1 > 0-0", "confidence": 2},
+    {"match": "022 弗赖堡vs拜仁", "wdl": "客胜/防平", "half_full": "平/负", "goals": "4+球", "scores": "1-3 > 2-3 > 2-2", "confidence": 3},
+    {"match": "023 莱切vs尤文图斯", "wdl": "客胜/防平", "half_full": "平/负", "goals": "0-1球", "scores": "0-1 > 1-1 > 0-2", "confidence": 2},
+    {"match": "024 皇家社会vs莱万特", "wdl": "主胜", "half_full": "平/胜", "goals": "2-3球", "scores": "2-1 > 3-1 > 2-2", "confidence": 4},
+    {"match": "025 阿尔克马尔vs特温特", "wdl": "主胜/防平", "half_full": "平/胜", "goals": "3-4球", "scores": "2-1 > 3-1 > 2-2", "confidence": 3},
+    {"match": "026 乌迪内斯vsAC米兰", "wdl": "平/客胜", "half_full": "平/平", "goals": "1-2球", "scores": "1-1 > 0-1 > 1-2", "confidence": 2},
+    {"match": "027 巴萨vs皇马", "wdl": "主胜/客胜", "half_full": "胜/胜", "goals": "4+球", "scores": "3-1 > 2-1 > 3-2", "confidence": 4},
+    {"match": "028 葡萄牙体育vs维塞乌", "wdl": "主胜方向", "half_full": "胜/胜", "goals": "3-4球", "scores": "3-1 > 2-0 > 4-1", "confidence": 3},
+    {"match": "029 洛杉矶FCvs洛杉矶银河", "wdl": "主胜/防平", "half_full": "平/胜", "goals": "4+球", "scores": "3-1 > 2-1 > 2-2", "confidence": 4}
+  ],
+  "disclaimer": "仅供体育数据分析与娱乐参考，不构成投注建议。赔率、销售状态、玩法与单关资格以官方终端为准；理性参与，量力而行。"
 }
